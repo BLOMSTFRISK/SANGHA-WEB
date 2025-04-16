@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Finanzas Zen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Outfit', sans-serif;
+      background-image: url('images/estampado\ final\ final.png');
+      background-size: 300px;
+      background-repeat: repeat;
+      background-attachment: fixed;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    .container {
+      background-color: rgba(54, 148, 105, 0.9);
+      border-radius: 16px;
+      padding: 2rem;
+      max-width: 600px;
+      color: white;
+      margin-top: 2rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .logo {
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+      background-color: white;
+      padding: 0.5rem;
+      max-width: 300px;
+      margin-bottom: 1.5rem;
+    }
+
+    h1, h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    .intro-sobre-mi {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+      max-width: 900px;
+      margin: 2rem auto;
+    }
+
+    .intro, .sobre-mi {
+      flex: 1;
+      min-width: 300px;
+      padding: 1.5rem;
+      border-radius: 1rem;
+    }
+
+    .intro {
+      background-color: rgba(240, 244, 241, 0.95);
+    }
+
+    .sobre-mi {
+      background-color: rgba(217, 165, 236, 0.95);
+      color: #2e2e2e;
+    }
+
+    .servicios, .contacto {
+      background-color: rgba(255, 255, 255, 0.95);
+      margin: 2rem auto;
+      max-width: 700px;
+      padding: 2rem;
+      border-radius: 1rem;
+    }
+
+    .contact-info {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin: 1rem 0;
+    }
+
+    form {
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    form input, form textarea {
+      width: 80%;
+      max-width: 400px;
+      margin-bottom: 1rem;
+      padding: 0.6rem;
+      border-radius: 0.5rem;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      padding: 0.7rem 1.5rem;
+      border: none;
+      background-color: #36976a;
+      color: white;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    button:hover {
+      background-color: #6e8b7d;
+    }
+
+    footer {
+      background-color: rgba(54, 148, 105, 0.9);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      border-top: 4px solid #4e7d7a;
+      font-weight: bold;
+      width: 100%;
+    }
+
+    a {
+      color: #4fa6a0;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <img class="logo" src="images/finanzas zen logo..png" alt="Logo Finanzas Zen">
+    <p>Equilibrá tus finanzas, encontrá paz y ponete en modo zen.</p>
+    <h2>COACHING FINANCIERO</h2>
+  </div>
+
+  <div class="intro-sobre-mi">
+    <section class="intro">
+      <h2>¿Qué es Finanzas Zen?</h2>
+      <p>Finanzas ZEN se especializa en brindar coaching financiero para personas con distintas necesidades: desde emprendedores que necesitan afinar sus cuentas, personas que quieren salir de deudas, hasta jóvenes que recién ingresan en el mercado y buscan claridad con su dinero.</p>
+    </section>
+
+    <section class="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Hola, soy Vero y hace más de 25 años que me dedico a acompañar a las personas en su camino a lograr paz financiera.</p>
+      <p>Después de ver de cerca cómo el estrés económico puede afectar nuestra salud, relaciones y proyectos, decidí crear Finanzas Zen: una propuesta que une claridad financiera con bienestar personal.</p>
+      <p>Mi enfoque no es solo con los números, sino también con tus emociones, hábitos y metas. Quiero ayudarte a vivir en modo zen con tu dinero.</p>
+    </section>
+  </div>
+
+  <section class="servicios">
+    <h2>Servicios</h2>
+    <ul>
+      <li>Coaching 1 a 1</li>
+      <li>Asesoramiento para salir de deudas</li>
+      <li>Talleres grupales</li>
+      <li>Cursos</li>
+      <li>Sesiones por Zoom o presenciales</li>
+    </ul>
+  </section>
+
+  <section class="contacto">
+    <h2>Contacto</h2>
+    <div class="contact-info">
+      <p>📧 <a href="mailto:contacto@finanzaszen.com">contacto@finanzaszen.com</a></p>
+      <p>📱 <a href="https://wa.me/542215738117">2215738117</a></p>
+      <p>📸 <a href="https://www.instagram.com/finanzas_zen">@finanzas_zen</a></p>
+    </div>
+    <form>
+      <input type="text" placeholder="Tu nombre" />
+      <input type="email" placeholder="Tu correo" />
+      <textarea rows="4" placeholder="Tu mensaje"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Finanzas Zen</p>
+    <p>Diseño Web: FOCA.AR | Concepto: BLÖMS Consultora</p>
+  </footer>
+</body>
+</html>

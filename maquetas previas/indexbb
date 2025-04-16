@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SANGHA</title>
+
+    <!-- Fuente sin serif (Outfit) -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind custom config -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Outfit', 'sans-serif'],
+            },
+          },
+        },
+      };
+    </script>
+
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+
+  <body class="bg-[#f9f7f4] text-[#222] font-sans">
+
+    <!-- Menú de navegación -->
+    <nav class="fixed top-0 left-0 right-0 bg-white shadow-md z-50 px-6 py-3 flex justify-between items-center">
+      <a href="#inicio" class="text-xl font-bold text-[#1D3B6D] hover:underline">SANGHA</a>
+      <ul class="flex gap-4 text-sm font-semibold text-[#222]">
+        <li><a href="#estudios" class="hover:text-[#5CBB7E]">Estudios</a></li>
+        <li><a href="#sobre" class="hover:text-[#5CBB7E]">Sobre</a></li>
+        <li><a href="#comunidad" class="hover:text-[#5CBB7E]">Comunidad</a></li>
+      </ul>
+    </nav>
+
+    <!-- Header con logo -->
+    <header id="inicio" class="flex items-center justify-center py-24">
+      <img src="images/sangha logo.png" alt="Logo SANGHA" class="h-40 w-auto" />
+    </header>
+
+    <!-- Hero principal -->
+    <section class="text-center py-20 px-4">
+      <h1 class="text-5xl font-bold mb-4">SANGHA</h1>
+      <p class="text-xl max-w-xl mx-auto mb-8">
+        Diseño, estrategia financiera y propósito emprendedor en comunidad.
+      </p>
+      <a href="#estudios">
+        <button class="bg-[#5CBB7E] text-white px-6 py-3 rounded-2xl text-lg font-bold shadow hover:bg-[#4DA96D] transition">
+          Conocé nuestros estudios
+        </button>
+      </a>
+    </section>
+
+    <!-- Sección de estudios -->
+    <section id="estudios" class="py-16 px-6 bg-[#B4A7D6]">
+      <h2 class="text-3xl font-semibold text-center mb-12 text-white">Nuestros estudios</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+        
+        <!-- FOCA -->
+        <div class="rounded-2xl p-6 shadow text-white flex flex-col items-center text-center justify-between bg-[#1D3B6D] hover:scale-105 transition">
+          <div class="text-6xl mb-4 h-20 flex items-center justify-center">
+            <div class="w-11 h-11 bg-current rounded-full"></div>
+          </div>
+          <h3 class="text-xl font-semibold mb-1">FOCA</h3>
+          <p class="text-sm text-white/80 mb-4">Diseño gráfico y visual.</p>
+          <a href="https://foca.ar" target="_blank" class="bg-white text-[#1D3B6D] font-bold px-4 py-2 rounded-xl hover:bg-[#e6e6e6] transition">Ir al sitio</a>
+        </div>
+
+        <!-- Finanzas Zen -->
+        <div class="rounded-2xl p-6 shadow text-white flex flex-col items-center text-center justify-between bg-[#5CBB7E] hover:scale-105 transition">
+          <div class="text-6xl mb-4 h-20 flex items-center justify-center">◐</div>
+          <h3 class="text-xl font-semibold mb-1">Finanzas Zen</h3>
+          <p class="text-sm text-white/80 mb-4">Coaching y estrategia financiera.</p>
+          <a href="https://finanzaszen.ar" target="_blank" class="bg-white text-[#5CBB7E] font-bold px-4 py-2 rounded-xl hover:bg-[#e6e6e6] transition">Ir al sitio</a>
+        </div>
+
+        <!-- BLÖMS -->
+        <div class="rounded-2xl p-6 shadow text-white flex flex-col items-center text-center justify-between bg-[#00BCD4] hover:scale-105 transition">
+          <div class="text-6xl mb-4 h-20 flex items-center justify-center">▲</div>
+          <h3 class="text-xl font-semibold mb-1">BLÖMS</h3>
+          <p class="text-sm text-white/80 mb-4">Consultoría para emprendedores.</p>
+          <a href="https://bloms.ar" target="_blank" class="bg-white text-[#00BCD4] font-bold px-4 py-2 rounded-xl hover:bg-[#e6e6e6] transition">Ir al sitio</a>
+        </div>
+
+        <!-- INKao -->
+        <div class="rounded-2xl p-6 shadow text-white flex flex-col items-center text-center justify-between bg-[#F6A800] hover:scale-105 transition">
+          <div class="text-6xl mb-4 h-20 flex items-center justify-center">■</div>
+          <h3 class="text-xl font-semibold mb-1">INKao</h3>
+          <p class="text-sm text-white/80 mb-4">Modelado 3D e impresión.</p>
+          <a href="https://inkao.ar" target="_blank" class="bg-white text-[#F6A800] font-bold px-4 py-2 rounded-xl hover:bg-[#e6e6e6] transition">Ir al sitio</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Sobre Sangha -->
+    <section id="sobre" class="py-20 px-6 bg-[#f0eee8] text-center">
+      <h2 class="text-3xl font-semibold mb-6">Sobre SANGHA</h2>
+      <p class="max-w-3xl mx-auto text-lg">
+        SANGHA es una comunidad de estudios creativos y estratégicos dedicada a acompañar a personas emprendedoras a través del diseño, la educación, el coaching financiero y la innovación. Creemos en la colaboración, el propósito y el desarrollo integral.
+      </p>
+    </section>
+
+    <!-- Comunidad -->
+    <section id="comunidad" class="py-20 px-6 bg-[#5CBB7E] text-center">
+      <h2 class="text-3xl font-semibold mb-6 text-white">Sumate a la comunidad</h2>
+      <p class="max-w-xl mx-auto mb-6 text-lg text-white">
+        Recibí recursos, talleres y novedades sobre nuestros estudios y el ecosistema emprendedor.
+      </p>
+      <div class="flex justify-center flex-wrap gap-2">
+        <input
+          type="email"
+          placeholder="Tu correo electrónico"
+          class="px-4 py-2 rounded-l-xl border border-gray-300"
+        />
+        <button class="bg-[#2D4C7A] text-white px-4 py-2 rounded-r-xl hover:bg-[#1f3556] transition">
+          Suscribirme
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#9676d8] text-white py-6 text-center font-bold">
+      <p>
+        2025 <a href="#" class="underline hover:text-white">SANGHA</a>, Diseño WEB <a href="https://foca.ar" target="_blank" class="underline hover:text-white">FOCA.AR</a>, Design concept <a href="https://bloms.ar" target="_blank" class="underline hover:text-white">BLÖMS Consultora</a>
+      </p>
+    </footer>
+  </body>
+</html>

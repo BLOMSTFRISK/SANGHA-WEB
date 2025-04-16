@@ -1,0 +1,21 @@
+h1 { 
+    color: red; font-size: 24px; font-family: fantasy;
+}
+
+h2, h3, h4 { 
+             color:blueviolet; font-size: 18px; background-color: aquamarine;
+}
+
+p {
+    color:darkgoldenrod; font-size: 15px; 
+}
+
+div {
+    background-color: cornflowerblue;
+}
+
+p1 {
+    background-color: blue 600;
+}
+
+/*no te olvides de guardar con control s*/
